@@ -1,0 +1,156 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "To crate new account",
+        "description": "",
+        "id": "to-validate-the-account-creation-of-fb-registeration;to-crate-new-account",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6762450000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "To open the browser and maximize the window",
+            "match": {
+              "location": "fbregister.to_open_the_browser_and_maximize_the_window()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096442001,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch the url of fb",
+            "match": {
+              "location": "fbregister.to_launch_the_url_of_fb()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 274800499,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "TO click the create new account button",
+            "match": {
+              "location": "fbregister.to_click_the_create_new_account_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3219481200,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pass firstname in firstname text box",
+            "match": {
+              "location": "fbregister.to_pass_firstname_in_firstname_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "diviya",
+                  "java",
+                  "class",
+                  "ion",
+                  "base"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266975600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To pass secondname in secondname text box",
+            "match": {
+              "location": "fbregister.to_pass_secondname_in_secondname_text_box()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 295747700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To pass mobile or email in email text box",
+            "match": {
+              "location": "fbregister.to_pass_mobile_or_email_in_email_text_box(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "praveenkk45@gmail.com",
+                  "56778990",
+                  "inmakes@gmail.vom",
+                  "3456789"
+                ]
+              },
+              {
+                "cells": [
+                  "reava@gmail.com",
+                  "678890",
+                  "qweras@gamil.com",
+                  "456678896"
+                ]
+              },
+              {
+                "cells": [
+                  "automation@gamil.com",
+                  "5678934",
+                  "wertgvg@gmail,com",
+                  "3456789"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 255935400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "To craete new password in password fiels",
+            "match": {
+              "location": "fbregister.to_craete_new_password_in_password_fiels()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 452999,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "To close the browser",
+            "match": {
+              "location": "fbregister.to_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TO validate the account creation of fb registeration",
+    "description": "",
+    "id": "to-validate-the-account-creation-of-fb-registeration",
+    "keyword": "Feature",
+    "uri": "src/test/resources/register.feature",
+    "tags": []
+  }
+]
